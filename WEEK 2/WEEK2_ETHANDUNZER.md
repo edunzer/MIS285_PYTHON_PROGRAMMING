@@ -9,11 +9,20 @@
       `Your college major`
 
       name = "My name is Ethan Dunzer. ";
-      address = "I live at ***************************** ";
-      phone = "My phone number is **************.";
+      address = "I live at *******************. ";
+      phone = "My phone number is *************.";
       major = "Im studing Information Technology.";
 
       print(name,'\n', address,'\n', phone,'\n', major);
+
+    ```
+    name = "My name is Ethan Dunzer. " ;
+    address = "I live at *******************. ";
+    phone = "My phone number is *************.";
+    major = "Im studing Information Technology.";
+
+    print(name,'\n', address,'\n', phone,'\n', major);
+    ```
 
   __2.3__
 
@@ -27,7 +36,14 @@
       acre_output = (square_ft_input / x);
       print(square_ft_input, 'is ', acre_output, 'acres');
 
+    ```
+    print("Please enter the total square feet you want to convert into acres");
+    square_ft_input = int(input());
+    x = 43560;
 
+    acre_output = (square_ft_input / x);
+    print(square_ft_input, 'is ', acre_output, 'acres');
+    ```
 
   __2.7__
 
@@ -41,6 +57,16 @@
       mpg = (miles / gallons);
       print(mpg, 'is your mpg');
 
+    ```
+    print("Please enter the number miles that you have driven:")
+    miles = int(input());
+    print("Please enter the number of gallons of gas that you have used:")
+    gallons = int(input());
+
+    mpg = (miles / gallons);
+    print(mpg, 'is your mpg');
+    ```
+
   __2.9__
 
     *Write a program that converts Celsius temperatures to Fahrenheit temperatures. The formula is as follows: F=(C*9/5)+32. The program should ask the user to enter a temperature in Celsius, then display the temperature converted to Fahrenheit.*
@@ -51,6 +77,13 @@
       temp_f = ((temp_c*9/5)+32);
       print(temp_f, 'is the converted temperature');
 
+    ```
+    print("Please enter the temperature in Celsius")
+    temp_c = int(input());
+
+    temp_f = ((temp_c*9/5)+32);
+    print(temp_f, 'is the converted temperature');
+    ```
 
   __2.11__
 
@@ -67,7 +100,19 @@
 
       print('The class population is ', male_percentage,'%', 'male and ', female_percentage,'%', 'female');
 
+    ```
+    print("Please enter the number of males in your class:");
+    male_num = int(input());
+    print("Please enter the number of females in your class:");
+    female_num = int(input());
 
+    total_students = (male_num + female_num);
+    male_percentage = ((male_num / total_students)*100);
+    female_percentage = ((female_num / total_students)*100);
+
+    print('The class population is ', male_percentage,'%', 'male and ', female_percentage,'%', 'female');
+
+    ```
 
   __Bonus Question__
 
